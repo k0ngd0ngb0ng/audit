@@ -84,10 +84,10 @@ unique_name_in_owner = true
 stream = ExtResource("2_0xm2m")
 volume_db = 5.0
 
-[node name="Button" type="Button" parent="." unique_id=1067446568]
+[node name="Activity_button_1" type="Button" parent="." unique_id=1067446568]
 offset_right = 8.0
 offset_bottom = 8.0
 
 [connection signal="button_up" from="CanvasLayer/Stopp" to="." method="_on_stopp_button_up"]
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
-[connection signal="button_up" from="Button" to="." method="_on_button_button_up"]
+[connection signal="button_up" from="Activity_button_1" to="." method="_on_button_button_up"]
