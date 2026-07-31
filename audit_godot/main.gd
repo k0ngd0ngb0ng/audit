@@ -47,6 +47,8 @@ func _process(delta: float) -> void:
 		%Timer.start() 
 		print(wait_minute, ":", wait_sec )
 		timer_set = true
+		set_process(false)
+	print("Process is SET")
 
 func _on_button_button_up() -> void:
 	pass # Replace with function body.
